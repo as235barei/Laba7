@@ -140,11 +140,16 @@ footer {
 	padding: 50px 0;
 }
 .text-footer {
-	color: rgb(14, 159, 202);
+	color: white;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	max-width: 320px;
 	font-size: 30px;
+	text-shadow:
+		rgb(14, 159, 202) 2px 0px 15px,
+		rgb(14, 159, 202) 0px 2px 15px,
+		rgb(14, 159, 202) -2px 0px 15px,
+		rgb(14, 159, 202) 0px -2px 15px;
 }
 .footer-container {
 	display: flex;
